@@ -1,0 +1,3 @@
+# docker-elasticsearch-cluster
+
+This repo contains docker based elasticsearch cluster (kibana and elasticsearch) that can be run as single node locally without any additional changes. In order to run the project, you will need dokcer and docker-compose installed locally. Run the command `docker-compose up -d` to stand up the cluster. By default the cluster has not security or ssl enabled. If you wish to install security or add ssl, you will need to make changes to the configs to add certs and enable security. Primary purpose of this repo is to be able to start elasticserach single node cluster locally for development purpose. 
